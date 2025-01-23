@@ -5,7 +5,7 @@ Predicting password strength using Logistic Regression
 The aim of this project is to predict password strength purely based on Machine Learning algorithms and simple NLP feature engineering techiques. No neural networks are used in the ML model.
 
 # Dataset
-The data is stored in a SQLite db and accessed programmatically from the notebook. The dataset is named password_data.sqlite and can be downloaded from this repository or from its original source, Kaggle again named in the same way.
+The data is stored in a SQLite db and accessed programmatically from the notebook. The dataset is named password_data.sqlite and can be downloaded from this repository or from its original source, Kaggle again named in the same way. The dataset has 100K rows and 2 columns: password and its strength. The passwords are labeled as "weak", "medium" and "strong".
 
 # Required software
 No special software is required to run the notebook. Only Jupyter notebook is used in the project with built-in Python libraries for data manupiulation and modeling.
